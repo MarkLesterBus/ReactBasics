@@ -36,7 +36,7 @@ const Navbar = ({ title }) => {
           </form>
           <div className="text-end">
             <button type="button" className="btn btn-outline-light me-2">
-              For Students
+              For Clients
             </button>
             <button type="button" className="btn btn-warning me-2">
               For Administrators

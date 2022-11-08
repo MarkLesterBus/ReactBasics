@@ -6,6 +6,7 @@ import Features from "./components/features";
 import SVG from "./components/svg";
 import Footer from "./components/footer";
 import Pricing from "./components/pricing";
+import Timer from "./components/timer";
 
 class App extends Component {
   render() {
@@ -13,7 +14,7 @@ class App extends Component {
       <div>
         <SVG />
         <Navbar title="Movies" />
-
+        <Timer startTimeInSeconds="300" />
         <Hero />
         <Features />
         <Pricing />
